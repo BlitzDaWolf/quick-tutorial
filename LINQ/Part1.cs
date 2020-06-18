@@ -20,18 +20,37 @@ namespace LINQ
 
         public Part1()
         {
+            Console.WriteLine("====LINQ=====");
+            Console.WriteLine("=   part 1  =");
+            Console.WriteLine("= Functions =");
+            Console.WriteLine("=============");
+
+            Console.WriteLine("");
+            Console.WriteLine("== Sort function ==");
             sortFunction();
+
             Console.WriteLine("");
+            Console.WriteLine("== Sort function tuple ==");
             sortTuple();
+
             Console.WriteLine("");
+            Console.WriteLine("== Sort function tuple then by ==");
             sortTupleThenBy();
+
             Console.WriteLine("");
+            Console.WriteLine("== find item with Where ==");
             findItem("lamp");
+
             Console.WriteLine("");
+            Console.WriteLine("== find one item with Where ==");
             findItemOne("lamp");
+
             Console.WriteLine("");
+            Console.WriteLine("== loop using Linq foreach (lambda) ==");
             loop();
+
             Console.WriteLine("");
+            Console.WriteLine("== loop using Linq foreach (callBack) ==");
             loopShoort();
         }
 
